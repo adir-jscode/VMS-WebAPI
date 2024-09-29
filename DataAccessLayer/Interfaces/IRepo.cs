@@ -8,5 +8,11 @@ namespace DataAccessLayer.Interfaces
 {
     public interface IRepo<Type,ID,RET>
     {
+        RET Create(Type obj);
+        List<Type> GetAll();
+        Type GetById(ID id);
+        RET Update(Type obj);
+
+        bool Delete(ID id);
     }
 }

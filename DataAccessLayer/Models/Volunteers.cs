@@ -15,13 +15,17 @@ namespace DataAccessLayer.Models
         public string Name { get; set; }
         [Required]
         public string Email { get; set; }
+
+        [Required(ErrorMessage = "Please enter password")]
+        [MinLength(6, ErrorMessage = "Password must be at least 6 characters long")]
+        public string Password { get; set; }
+
         [Required]
         public string Phone { get; set; }
         [Required]
         public string Address { get; set; }
         public string Availability { get; set; }
-        public string Skills { get; set; }
-        public string Status { get; set; }
+        public List<string> Skills { get; set; }
         [Required]
         public DateTime CreatedAt { get; set; }
         public DateTime? UpdatedAt { get; set; }
