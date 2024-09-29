@@ -66,10 +66,44 @@
     <Compile Include="Migrations\202409290534174_EventTableVolunteerModified2.Designer.cs">
       <DependentUpon>202409290534174_EventTableVolunteerModified2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202409291217568_SeedVolunteerData.cs" />
+    <Compile Include="Migrations\202409291217568_SeedVolunteerData.Designer.cs">
+      <DependentUpon>202409291217568_SeedVolunteerData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202409291220366_SeedVolunteerData2.cs" />
+    <Compile Include="Migrations\202409291220366_SeedVolunteerData2.Designer.cs">
+      <DependentUpon>202409291220366_SeedVolunteerData2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202409291255049_newSeed.cs" />
+    <Compile Include="Migrations\202409291255049_newSeed.Designer.cs">
+      <DependentUpon>202409291255049_newSeed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202409291258044_newSeed2.cs" />
+    <Compile Include="Migrations\202409291258044_newSeed2.Designer.cs">
+      <DependentUpon>202409291258044_newSeed2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202409291336532_SeedEventVolData.cs" />
+    <Compile Include="Migrations\202409291336532_SeedEventVolData.Designer.cs">
+      <DependentUpon>202409291336532_SeedEventVolData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202409291341125_SeedEventVolData4.cs" />
+    <Compile Include="Migrations\202409291341125_SeedEventVolData4.Designer.cs">
+      <DependentUpon>202409291341125_SeedEventVolData4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202409291343332_seedDataVolEv.cs" />
+    <Compile Include="Migrations\202409291343332_seedDataVolEv.Designer.cs">
+      <DependentUpon>202409291343332_seedDataVolEv.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202409291345498_seedDataVolEv2.cs" />
+    <Compile Include="Migrations\202409291345498_seedDataVolEv2.Designer.cs">
+      <DependentUpon>202409291345498_seedDataVolEv2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Events.cs" />
+    <Compile Include="Models\VolunteerEvents.cs" />
     <Compile Include="Models\Volunteers.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repos\EventRepo.cs" />
     <Compile Include="Repos\Repo.cs" />
     <Compile Include="Repos\VolunteersRepo.cs" />
   </ItemGroup>
@@ -86,6 +120,30 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202409290534174_EventTableVolunteerModified2.resx">
       <DependentUpon>202409290534174_EventTableVolunteerModified2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202409291217568_SeedVolunteerData.resx">
+      <DependentUpon>202409291217568_SeedVolunteerData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202409291220366_SeedVolunteerData2.resx">
+      <DependentUpon>202409291220366_SeedVolunteerData2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202409291255049_newSeed.resx">
+      <DependentUpon>202409291255049_newSeed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202409291258044_newSeed2.resx">
+      <DependentUpon>202409291258044_newSeed2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202409291336532_SeedEventVolData.resx">
+      <DependentUpon>202409291336532_SeedEventVolData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202409291341125_SeedEventVolData4.resx">
+      <DependentUpon>202409291341125_SeedEventVolData4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202409291343332_seedDataVolEv.resx">
+      <DependentUpon>202409291343332_seedDataVolEv.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202409291345498_seedDataVolEv2.resx">
+      <DependentUpon>202409291345498_seedDataVolEv2.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

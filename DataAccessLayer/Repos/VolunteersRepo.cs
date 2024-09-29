@@ -30,6 +30,13 @@ namespace DataAccessLayer.Repos
             return db.SaveChanges() > 0;
         }
 
+        public List<Volunteers> Filter(string keyword)
+        {
+            //filter can be done by name, email, phone number
+            var volunteers = db.Volunteers.Where(x => x.Name.Contains(keyword) || x.Availability.Contains(keyword) || x.Phone.Contains(keyword)).ToList();
+            return volunteers;
+        }
+
         public List<Volunteers> GetAll()
         {
            var volunteers = db.Volunteers.ToList();
@@ -48,6 +55,19 @@ namespace DataAccessLayer.Repos
                 return null;
             }
 
+        }
+
+        public Volunteers Search(string name)
+        {
+            var volunteer = db.Volunteers.Where(x => x.Name == name).FirstOrDefault();
+            if (volunteer != null)
+            {
+                return volunteer;
+            }
+            else
+            {
+                return null;
+            }
         }
 
         public Volunteers Update(Volunteers obj)

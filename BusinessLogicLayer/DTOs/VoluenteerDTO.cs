@@ -12,32 +12,18 @@ namespace BusinessLogicLayer.DTOs
         
         public int Id { get; set; }
         [Required(ErrorMessage = "Please enter first name")]
-        public string FirstName { get; set; }
-        [Required(ErrorMessage = "Please enter last name")]
-        public string LastName { get; set; }
+
+        [StringLength(50, ErrorMessage = "Name must be less than 50 characters")]
+        public string Name { get; set; }
 
         [Required(ErrorMessage = "Please enter email")]
         [EmailAddress(ErrorMessage = "Please enter valid email")]
         public string Email { get; set; }
         [Required(ErrorMessage = "Please enter phone number")]
         public string Phone { get; set; }
-
-        [Required(ErrorMessage = "Please enter password")]
-        [MinLength(6, ErrorMessage = "Password must be at least 6 characters long")]
-        public string Password { get; set; }
-
-        [Required(ErrorMessage = "Please confirm password")]
-        [Compare("Password", ErrorMessage = "Passwords do not match")]
-        public string ConfirmPassword { get; set; }
-        [Required(ErrorMessage = "Please enter house no")]
-        public string HouseNo { get; set; }
-        [Required(ErrorMessage = "Please enter street")]
-        public string Street { get; set; }
-        [Required(ErrorMessage = "Please enter city")]
-        public string City { get; set; }
-
-        [Required(ErrorMessage = "Please enter postal code")]
-        public string PostalCode { get; set; }
+        
+        [Required(ErrorMessage = "Please enter address")]
+        public string Address { get; set; }
         public string Availability { get; set; }
         public List<string> Skills { get; set; }
         public DateTime CreatedAt { get; set; }

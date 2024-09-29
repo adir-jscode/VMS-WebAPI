@@ -12,16 +12,16 @@ namespace BusinessLogicLayer.Mapper
     {
         public Volunteers Map(VoluenteerDTO obj)
         {
-            var name = obj.FirstName.Trim() + " " + obj.LastName.Trim();
-            var address = obj.HouseNo.Trim() + " " + obj.City.Trim() + " " + obj.PostalCode.Trim();
+            //var name = obj.FirstName.Trim() + " " + obj.LastName.Trim();
+            //var address = obj.HouseNo.Trim() + " " + obj.Street.Trim() + " " + obj.City.Trim() + " " + obj.PostalCode.Trim();
             return new Volunteers
             {
                 Id = obj.Id,
-                Name = name,
-                Address = address,
+                Name = obj.Name,
+                Address = obj.Address,
                 Email = obj.Email,
                 Phone = obj.Phone,
-                Password = obj.Password,
+                //Password = obj.Password,
                 Availability = obj.Availability,
                 Skills = obj.Skills,
                 CreatedAt = obj.CreatedAt
@@ -34,14 +34,10 @@ namespace BusinessLogicLayer.Mapper
             return new VoluenteerDTO
             {
                 Id = obj.Id,
-                FirstName = obj.Name.Split(' ')[0],
-                LastName = obj.Name.Split(' ')[1],
+                Name = obj.Name,
                 Email = obj.Email,
                 Phone = obj.Phone,
-                Password = obj.Password,
-                HouseNo = obj.Address.Split(' ')[0],
-                City = obj.Address.Split(' ')[1],
-                PostalCode = obj.Address.Split(' ')[2],
+                Address = obj.Address,
                 Availability = obj.Availability,
                 Skills = obj.Skills,
                 CreatedAt = obj.CreatedAt
@@ -50,7 +46,12 @@ namespace BusinessLogicLayer.Mapper
 
         public List<VoluenteerDTO> Map(List<Volunteers> obj)
         {
-            throw new NotImplementedException();
+            var volunteers = new List<VoluenteerDTO>();
+            foreach (var volunteer in obj)
+            {
+                volunteers.Add(Map(volunteer));
+            }
+            return volunteers;
         }
     }
 }

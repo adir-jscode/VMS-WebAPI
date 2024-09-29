@@ -15,5 +15,9 @@ namespace DataAccessLayer
         {
             return new VolunteersRepo();
         }
+        public static IRepo<Events, int, Events> EventsData()
+        {
+            return new EventRepo();
+        }
     }
 }

@@ -44,5 +44,19 @@ namespace BusinessLogicLayer.Services
         {
             return DataAccessFactory.VolunteersData().Delete(id);
         }
+
+        public static List<VoluenteerDTO> Filter(string keyword)
+        {
+            var data = DataAccessFactory.VolunteersData().Filter(keyword);
+            var filteredVolunteers = volunteerMapper.Map(data);
+            return filteredVolunteers;
+        }
+
+        public static VoluenteerDTO Search(string name)
+        {
+            var data = DataAccessFactory.VolunteersData().Search(name);
+            var volunteer = volunteerMapper.Map(data);
+            return volunteer;
+        }
     }
 }

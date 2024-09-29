@@ -45,10 +45,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DTOs\EventDTO.cs" />
     <Compile Include="DTOs\VoluenteerDTO.cs" />
+    <Compile Include="Mapper\EventMapper.cs" />
     <Compile Include="Mapper\IMapper.cs" />
     <Compile Include="Mapper\VolunteerMapper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\EventService.cs" />
     <Compile Include="Services\VolunteerService.cs" />
   </ItemGroup>
   <ItemGroup>

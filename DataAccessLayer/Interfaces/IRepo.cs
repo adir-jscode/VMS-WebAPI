@@ -14,5 +14,8 @@ namespace DataAccessLayer.Interfaces
         RET Update(Type obj);
 
         bool Delete(ID id);
+        Type Search(string name);
+        List<Type> Filter(string keyword);
+
     }
 }
