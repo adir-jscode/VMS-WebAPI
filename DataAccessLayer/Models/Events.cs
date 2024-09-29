@@ -7,21 +7,19 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer.Models
 {
-    public class Volunteers
+    public class Events
     {
         [Key]
         public int Id { get; set; }
         [Required]
         public string Name { get; set; }
+        public string Description { get; set; }
         [Required]
-        public string Email { get; set; }
+        public string Location { get; set; }
         [Required]
-        public string Phone { get; set; }
+        public DateTime StartDateTime { get; set; }
         [Required]
-        public string Address { get; set; }
-        public string Availability { get; set; }
-        public string Skills { get; set; }
-        public string Status { get; set; }
+        public DateTime EndDateTime { get; set; }
         [Required]
         public DateTime CreatedAt { get; set; }
         public DateTime? UpdatedAt { get; set; }
