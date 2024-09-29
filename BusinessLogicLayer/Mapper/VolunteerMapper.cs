@@ -21,9 +21,9 @@ namespace BusinessLogicLayer.Mapper
                 Address = obj.Address,
                 Email = obj.Email,
                 Phone = obj.Phone,
-                //Password = obj.Password,
+                
                 Availability = obj.Availability,
-                Skills = obj.Skills,
+                //Skills = obj.Skills,
                 CreatedAt = obj.CreatedAt
 
             };
@@ -39,7 +39,7 @@ namespace BusinessLogicLayer.Mapper
                 Phone = obj.Phone,
                 Address = obj.Address,
                 Availability = obj.Availability,
-                Skills = obj.Skills,
+                //Skills = obj.Skills,
                 CreatedAt = obj.CreatedAt
             };
         }

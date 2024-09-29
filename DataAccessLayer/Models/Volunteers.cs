@@ -25,7 +25,6 @@ namespace DataAccessLayer.Models
         [Required]
         public string Address { get; set; }
         public string Availability { get; set; }
-        public List<string> Skills { get; set; }
         [Required]
         public DateTime CreatedAt { get; set; }
         public DateTime? UpdatedAt { get; set; }

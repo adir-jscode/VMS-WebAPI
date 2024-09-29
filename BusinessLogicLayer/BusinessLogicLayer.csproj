@@ -45,6 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DTOs\AddVolunteerDTO.cs" />
     <Compile Include="DTOs\EventDTO.cs" />
     <Compile Include="DTOs\VoluenteerDTO.cs" />
     <Compile Include="Mapper\EventMapper.cs" />

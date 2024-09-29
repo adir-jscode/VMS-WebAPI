@@ -1,4 +1,5 @@
-﻿using BusinessLogicLayer.Services;
+﻿using BusinessLogicLayer.DTOs;
+using BusinessLogicLayer.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -36,11 +37,27 @@ namespace VMS_API.Controllers
             }
             catch (Exception ex)
             {
-                return Request.CreateResponse(HttpStatusCode.InternalServerError, new { Message = "Problem" });
+                return Request.CreateResponse(HttpStatusCode.InternalServerError, new { Message = ex.Message });
             }
         }
 
         
+        [HttpPost]
+        [Route("api/volunteer")]
+        public HttpResponseMessage Create(VoluenteerDTO volunteer)
+        {
+            try
+            {
+                var data = VolunteerService.Create(volunteer);
+                return Request.CreateResponse(HttpStatusCode.OK, data);
+            }
+            catch (Exception ex)
+            {
+                return Request.CreateResponse(HttpStatusCode.InternalServerError, new { Message = ex.Message });
+            }
+        }
+
+
         [HttpGet]
         [Route("api/volunteer/search/{name}")]
         public HttpResponseMessage Search(string name)

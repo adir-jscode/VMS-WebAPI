@@ -35,7 +35,7 @@
                         Phone = "1234567890",
                         Password = "password",
                         Address = "123 VolunteerSt City 121" + i,
-                        Skills = new List<string> { "Skill1", "Skill2" },
+                        //Skills = new List<string> { "Skill1", "Skill2" },
                         Availability = "Weekends",
                         CreatedAt = DateTime.Now
                     }

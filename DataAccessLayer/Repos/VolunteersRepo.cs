@@ -32,7 +32,7 @@ namespace DataAccessLayer.Repos
 
         public List<Volunteers> Filter(string keyword)
         {
-            //filter can be done by name, email, phone number
+            
             var volunteers = db.Volunteers.Where(x => x.Name.Contains(keyword) || x.Availability.Contains(keyword) || x.Phone.Contains(keyword)).ToList();
             return volunteers;
         }
