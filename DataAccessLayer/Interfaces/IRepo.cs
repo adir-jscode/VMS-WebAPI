@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataAccessLayer
+namespace DataAccessLayer.Interfaces
 {
-    public class Class1
+    public interface IRepo<Type,ID,RET>
     {
     }
 }

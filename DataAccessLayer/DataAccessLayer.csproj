@@ -51,8 +51,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Context\VMSContext.cs" />
+    <Compile Include="Interfaces\IRepo.cs" />
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\Volunteers.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repos\VolunteersRepo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
