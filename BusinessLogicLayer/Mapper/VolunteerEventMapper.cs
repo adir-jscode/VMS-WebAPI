@@ -17,7 +17,9 @@ namespace BusinessLogicLayer.Mapper
                 Id = obj.Id,
                 VolunteerId = obj.VolunteerId,
                 EventId = obj.EventId,
+                Event = obj.Event,
                 Status = obj.Status,
+                Volunteer = obj.Volunteer,
                 AssignedAt = obj.AssignedAt,
                 CompletedAt = obj.CompletedAt
             };
@@ -30,6 +32,8 @@ namespace BusinessLogicLayer.Mapper
                 Id = obj.Id,
                 VolunteerId = obj.VolunteerId,
                 EventId = obj.EventId,
+                Event = obj.Event,
+                Volunteer = obj.Volunteer,
                 Status = obj.Status,
                 AssignedAt = obj.AssignedAt,
                 CompletedAt = obj.CompletedAt

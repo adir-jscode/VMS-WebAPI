@@ -14,6 +14,7 @@ namespace BusinessLogicLayer.Services
         public static VolunteerEventMapper VolunteerEventMapper = new VolunteerEventMapper();
         public static void AssignVolunteerToEvent(int volunteerId, int eventId)
         {
+            var eventName = DataAccessFactory.EventsData().GetById(eventId).Name;
             var volunteerEvent = new VolunteerEventsDTO
             {
                 VolunteerId = volunteerId,
@@ -23,6 +24,15 @@ namespace BusinessLogicLayer.Services
             };
            DataAccessFactory.VolunteerEventsData().Create(VolunteerEventMapper.Map(volunteerEvent));
 
+        }
+
+        
+            public static List<VolunteerEventsDTO> GetVolunteersEvent()
+        {
+            
+            var data = DataAccessFactory.VolunteerEventsData().GetAll();
+            var volunteers = VolunteerEventMapper.Map(data);
+            return volunteers;
         }
     }
 }

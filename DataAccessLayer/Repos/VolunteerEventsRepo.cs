@@ -48,7 +48,8 @@ namespace DataAccessLayer.Repos
 
         public List<VolunteerEvents> GetAll()
         {
-            var data = db.VolenteerEvents.ToList();
+            //data including volunteer and event
+            var data = db.VolenteerEvents.Include("Volunteer").Include("Event").ToList();
             return data;
         }
 

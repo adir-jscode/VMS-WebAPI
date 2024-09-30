@@ -3,55 +3,35 @@
   "WorkspaceRootPath": "D:\\VMS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{03D0EDAE-D770-4DC0-B4E4-CC058438DA54}|VMS-API\\VMS-API.csproj|d:\\vms\\vms-api\\controllers\\auditlogscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03D0EDAE-D770-4DC0-B4E4-CC058438DA54}|VMS-API\\VMS-API.csproj|solutionrelative:vms-api\\controllers\\auditlogscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{601581DB-FA63-44FD-9BD4-DDF70016B455}|BusinessLogicLayer\\BusinessLogicLayer.csproj|d:\\vms\\businesslogiclayer\\services\\auditlogsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{601581DB-FA63-44FD-9BD4-DDF70016B455}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\services\\auditlogsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3AEFD186-F4D8-45FB-B709-4211FE36DA91}|DataAccessLayer\\DataAccessLayer.csproj|d:\\vms\\dataaccesslayer\\repos\\auditlogsrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3AEFD186-F4D8-45FB-B709-4211FE36DA91}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\repos\\auditlogsrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3AEFD186-F4D8-45FB-B709-4211FE36DA91}|DataAccessLayer\\DataAccessLayer.csproj|D:\\VMS\\dataaccesslayer\\repos\\volunteereventsrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AEFD186-F4D8-45FB-B709-4211FE36DA91}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\repos\\volunteereventsrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3AEFD186-F4D8-45FB-B709-4211FE36DA91}|DataAccessLayer\\DataAccessLayer.csproj|D:\\VMS\\dataaccesslayer\\dataaccessfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3AEFD186-F4D8-45FB-B709-4211FE36DA91}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\dataaccessfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{03D0EDAE-D770-4DC0-B4E4-CC058438DA54}|VMS-API\\VMS-API.csproj|D:\\VMS\\vms-api\\controllers\\volunteercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03D0EDAE-D770-4DC0-B4E4-CC058438DA54}|VMS-API\\VMS-API.csproj|solutionrelative:vms-api\\controllers\\volunteercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{03D0EDAE-D770-4DC0-B4E4-CC058438DA54}|VMS-API\\VMS-API.csproj|D:\\VMS\\vms-api\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03D0EDAE-D770-4DC0-B4E4-CC058438DA54}|VMS-API\\VMS-API.csproj|solutionrelative:vms-api\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{601581DB-FA63-44FD-9BD4-DDF70016B455}|BusinessLogicLayer\\BusinessLogicLayer.csproj|D:\\VMS\\businesslogiclayer\\services\\volunteereventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{601581DB-FA63-44FD-9BD4-DDF70016B455}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\services\\volunteereventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{03D0EDAE-D770-4DC0-B4E4-CC058438DA54}|VMS-API\\VMS-API.csproj|D:\\VMS\\vms-api\\controllers\\eventvolunteercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{03D0EDAE-D770-4DC0-B4E4-CC058438DA54}|VMS-API\\VMS-API.csproj|solutionrelative:vms-api\\controllers\\eventvolunteercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{601581DB-FA63-44FD-9BD4-DDF70016B455}|BusinessLogicLayer\\BusinessLogicLayer.csproj|d:\\vms\\businesslogiclayer\\mapper\\auditlogsmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{03D0EDAE-D770-4DC0-B4E4-CC058438DA54}|VMS-API\\VMS-API.csproj|D:\\VMS\\vms-api\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03D0EDAE-D770-4DC0-B4E4-CC058438DA54}|VMS-API\\VMS-API.csproj|solutionrelative:vms-api\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{601581DB-FA63-44FD-9BD4-DDF70016B455}|BusinessLogicLayer\\BusinessLogicLayer.csproj|D:\\VMS\\businesslogiclayer\\mapper\\volunteereventmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{601581DB-FA63-44FD-9BD4-DDF70016B455}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\mapper\\volunteereventmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{601581DB-FA63-44FD-9BD4-DDF70016B455}|BusinessLogicLayer\\BusinessLogicLayer.csproj|D:\\VMS\\businesslogiclayer\\mapper\\auditlogsmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{601581DB-FA63-44FD-9BD4-DDF70016B455}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\mapper\\auditlogsmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{601581DB-FA63-44FD-9BD4-DDF70016B455}|BusinessLogicLayer\\BusinessLogicLayer.csproj|d:\\vms\\businesslogiclayer\\dtos\\auditlogsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{601581DB-FA63-44FD-9BD4-DDF70016B455}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\dtos\\auditlogsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3AEFD186-F4D8-45FB-B709-4211FE36DA91}|DataAccessLayer\\DataAccessLayer.csproj|d:\\vms\\dataaccesslayer\\models\\auditlogs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3AEFD186-F4D8-45FB-B709-4211FE36DA91}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\models\\auditlogs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3AEFD186-F4D8-45FB-B709-4211FE36DA91}|DataAccessLayer\\DataAccessLayer.csproj|d:\\vms\\dataaccesslayer\\migrations\\202409300154444_auditlogs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3AEFD186-F4D8-45FB-B709-4211FE36DA91}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\migrations\\202409300154444_auditlogs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3AEFD186-F4D8-45FB-B709-4211FE36DA91}|DataAccessLayer\\DataAccessLayer.csproj|D:\\VMS\\dataaccesslayer\\context\\vmscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3AEFD186-F4D8-45FB-B709-4211FE36DA91}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\context\\vmscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{601581DB-FA63-44FD-9BD4-DDF70016B455}|BusinessLogicLayer\\BusinessLogicLayer.csproj|d:\\vms\\businesslogiclayer\\dtos\\volunteereventsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{601581DB-FA63-44FD-9BD4-DDF70016B455}|BusinessLogicLayer\\BusinessLogicLayer.csproj|D:\\VMS\\businesslogiclayer\\dtos\\volunteereventsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{601581DB-FA63-44FD-9BD4-DDF70016B455}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\dtos\\volunteereventsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -59,7 +39,47 @@
       "RelativeMoniker": "D:0:0:{601581DB-FA63-44FD-9BD4-DDF70016B455}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\dtos\\voluenteerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3AEFD186-F4D8-45FB-B709-4211FE36DA91}|DataAccessLayer\\DataAccessLayer.csproj|d:\\vms\\dataaccesslayer\\migrations\\202409300146456_volunteermodelupdated.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3AEFD186-F4D8-45FB-B709-4211FE36DA91}|DataAccessLayer\\DataAccessLayer.csproj|D:\\VMS\\dataaccesslayer\\repos\\volunteersrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AEFD186-F4D8-45FB-B709-4211FE36DA91}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\repos\\volunteersrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{601581DB-FA63-44FD-9BD4-DDF70016B455}|BusinessLogicLayer\\BusinessLogicLayer.csproj|D:\\VMS\\businesslogiclayer\\services\\volunteerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{601581DB-FA63-44FD-9BD4-DDF70016B455}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\services\\volunteerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03D0EDAE-D770-4DC0-B4E4-CC058438DA54}|VMS-API\\VMS-API.csproj|D:\\VMS\\vms-api\\controllers\\volunteercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03D0EDAE-D770-4DC0-B4E4-CC058438DA54}|VMS-API\\VMS-API.csproj|solutionrelative:vms-api\\controllers\\volunteercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03D0EDAE-D770-4DC0-B4E4-CC058438DA54}|VMS-API\\VMS-API.csproj|d:\\vms\\vms-api\\controllers\\auditlogscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03D0EDAE-D770-4DC0-B4E4-CC058438DA54}|VMS-API\\VMS-API.csproj|solutionrelative:vms-api\\controllers\\auditlogscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{601581DB-FA63-44FD-9BD4-DDF70016B455}|BusinessLogicLayer\\BusinessLogicLayer.csproj|D:\\VMS\\businesslogiclayer\\services\\auditlogsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{601581DB-FA63-44FD-9BD4-DDF70016B455}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\services\\auditlogsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AEFD186-F4D8-45FB-B709-4211FE36DA91}|DataAccessLayer\\DataAccessLayer.csproj|D:\\VMS\\dataaccesslayer\\repos\\auditlogsrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AEFD186-F4D8-45FB-B709-4211FE36DA91}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\repos\\auditlogsrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{601581DB-FA63-44FD-9BD4-DDF70016B455}|BusinessLogicLayer\\BusinessLogicLayer.csproj|D:\\VMS\\businesslogiclayer\\dtos\\auditlogsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{601581DB-FA63-44FD-9BD4-DDF70016B455}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\dtos\\auditlogsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AEFD186-F4D8-45FB-B709-4211FE36DA91}|DataAccessLayer\\DataAccessLayer.csproj|D:\\VMS\\dataaccesslayer\\models\\auditlogs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AEFD186-F4D8-45FB-B709-4211FE36DA91}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\models\\auditlogs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AEFD186-F4D8-45FB-B709-4211FE36DA91}|DataAccessLayer\\DataAccessLayer.csproj|D:\\VMS\\dataaccesslayer\\migrations\\202409300154444_auditlogs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AEFD186-F4D8-45FB-B709-4211FE36DA91}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\migrations\\202409300154444_auditlogs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AEFD186-F4D8-45FB-B709-4211FE36DA91}|DataAccessLayer\\DataAccessLayer.csproj|D:\\VMS\\dataaccesslayer\\context\\vmscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AEFD186-F4D8-45FB-B709-4211FE36DA91}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\context\\vmscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AEFD186-F4D8-45FB-B709-4211FE36DA91}|DataAccessLayer\\DataAccessLayer.csproj|D:\\VMS\\dataaccesslayer\\migrations\\202409300146456_volunteermodelupdated.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3AEFD186-F4D8-45FB-B709-4211FE36DA91}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\migrations\\202409300146456_volunteermodelupdated.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -79,19 +99,11 @@
       "RelativeMoniker": "D:0:0:{3AEFD186-F4D8-45FB-B709-4211FE36DA91}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\interfaces\\irepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{601581DB-FA63-44FD-9BD4-DDF70016B455}|BusinessLogicLayer\\BusinessLogicLayer.csproj|d:\\vms\\businesslogiclayer\\services\\volunteereventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{601581DB-FA63-44FD-9BD4-DDF70016B455}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\services\\volunteereventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3AEFD186-F4D8-45FB-B709-4211FE36DA91}|DataAccessLayer\\DataAccessLayer.csproj|d:\\vms\\dataaccesslayer\\repos\\volunteereventsrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3AEFD186-F4D8-45FB-B709-4211FE36DA91}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\repos\\volunteereventsrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{601581DB-FA63-44FD-9BD4-DDF70016B455}|BusinessLogicLayer\\BusinessLogicLayer.csproj|D:\\VMS\\businesslogiclayer\\services\\eventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{601581DB-FA63-44FD-9BD4-DDF70016B455}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\services\\eventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3AEFD186-F4D8-45FB-B709-4211FE36DA91}|DataAccessLayer\\DataAccessLayer.csproj|d:\\vms\\dataaccesslayer\\models\\volunteerevents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3AEFD186-F4D8-45FB-B709-4211FE36DA91}|DataAccessLayer\\DataAccessLayer.csproj|D:\\VMS\\dataaccesslayer\\models\\volunteerevents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3AEFD186-F4D8-45FB-B709-4211FE36DA91}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\models\\volunteerevents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -99,20 +111,8 @@
       "RelativeMoniker": "D:0:0:{3AEFD186-F4D8-45FB-B709-4211FE36DA91}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\repos\\eventrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3AEFD186-F4D8-45FB-B709-4211FE36DA91}|DataAccessLayer\\DataAccessLayer.csproj|d:\\vms\\dataaccesslayer\\repos\\volunteersrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3AEFD186-F4D8-45FB-B709-4211FE36DA91}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\repos\\volunteersrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{601581DB-FA63-44FD-9BD4-DDF70016B455}|BusinessLogicLayer\\BusinessLogicLayer.csproj|d:\\vms\\businesslogiclayer\\mapper\\volunteereventmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{601581DB-FA63-44FD-9BD4-DDF70016B455}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\mapper\\volunteereventmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{601581DB-FA63-44FD-9BD4-DDF70016B455}|BusinessLogicLayer\\BusinessLogicLayer.csproj|D:\\VMS\\businesslogiclayer\\mapper\\eventmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{601581DB-FA63-44FD-9BD4-DDF70016B455}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\mapper\\eventmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{601581DB-FA63-44FD-9BD4-DDF70016B455}|BusinessLogicLayer\\BusinessLogicLayer.csproj|D:\\VMS\\businesslogiclayer\\services\\volunteerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{601581DB-FA63-44FD-9BD4-DDF70016B455}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\services\\volunteerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{601581DB-FA63-44FD-9BD4-DDF70016B455}|BusinessLogicLayer\\BusinessLogicLayer.csproj|D:\\VMS\\businesslogiclayer\\dtos\\addvolunteerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -190,7 +190,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -202,124 +202,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AuditLogsController.cs",
-              "DocumentMoniker": "D:\\VMS\\VMS-API\\Controllers\\AuditLogsController.cs",
-              "RelativeDocumentMoniker": "VMS-API\\Controllers\\AuditLogsController.cs",
-              "ToolTip": "D:\\VMS\\VMS-API\\Controllers\\AuditLogsController.cs",
-              "RelativeToolTip": "VMS-API\\Controllers\\AuditLogsController.cs",
-              "ViewState": "AQIAAAsAAACAzMzMzMwewBIAAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T02:04:53.721Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AuditLogsService.cs",
-              "DocumentMoniker": "D:\\VMS\\BusinessLogicLayer\\Services\\AuditLogsService.cs",
-              "RelativeDocumentMoniker": "BusinessLogicLayer\\Services\\AuditLogsService.cs",
-              "ToolTip": "D:\\VMS\\BusinessLogicLayer\\Services\\AuditLogsService.cs",
-              "RelativeToolTip": "BusinessLogicLayer\\Services\\AuditLogsService.cs",
-              "ViewState": "AQIAAA8AAAAQAAAAAKA7wBwAAAA3AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T01:59:55.75Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AuditLogsDTO.cs",
-              "DocumentMoniker": "D:\\VMS\\BusinessLogicLayer\\DTOs\\AuditLogsDTO.cs",
-              "RelativeDocumentMoniker": "BusinessLogicLayer\\DTOs\\AuditLogsDTO.cs",
-              "ToolTip": "D:\\VMS\\BusinessLogicLayer\\DTOs\\AuditLogsDTO.cs",
-              "RelativeToolTip": "BusinessLogicLayer\\DTOs\\AuditLogsDTO.cs",
-              "ViewState": "AQIAAAkAAADAAAAAAAARwBMAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T01:57:10.379Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AuditLogsRepo.cs",
-              "DocumentMoniker": "D:\\VMS\\DataAccessLayer\\Repos\\AuditLogsRepo.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\Repos\\AuditLogsRepo.cs",
-              "ToolTip": "D:\\VMS\\DataAccessLayer\\Repos\\AuditLogsRepo.cs",
-              "RelativeToolTip": "DataAccessLayer\\Repos\\AuditLogsRepo.cs",
-              "ViewState": "AQIAABsAAADAZ2ZmZmYSwCMAAAAnAAAA",
+              "Title": "VolunteerEventService.cs",
+              "DocumentMoniker": "D:\\VMS\\BusinessLogicLayer\\Services\\VolunteerEventService.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\Services\\VolunteerEventService.cs",
+              "ToolTip": "D:\\VMS\\BusinessLogicLayer\\Services\\VolunteerEventService.cs*",
+              "RelativeToolTip": "BusinessLogicLayer\\Services\\VolunteerEventService.cs*",
+              "ViewState": "AQIAABIAAAAAAAAAAAAnwCAAAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T01:55:47.845Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "202409300154444_AuditLogs.cs",
-              "DocumentMoniker": "D:\\VMS\\DataAccessLayer\\Migrations\\202409300154444_AuditLogs.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\Migrations\\202409300154444_AuditLogs.cs",
-              "ToolTip": "D:\\VMS\\DataAccessLayer\\Migrations\\202409300154444_AuditLogs.cs",
-              "RelativeToolTip": "DataAccessLayer\\Migrations\\202409300154444_AuditLogs.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T01:54:53.418Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AuditLogs.cs",
-              "DocumentMoniker": "D:\\VMS\\DataAccessLayer\\Models\\AuditLogs.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\Models\\AuditLogs.cs",
-              "ToolTip": "D:\\VMS\\DataAccessLayer\\Models\\AuditLogs.cs",
-              "RelativeToolTip": "DataAccessLayer\\Models\\AuditLogs.cs",
-              "ViewState": "AQIAAAkAAADAZ2ZmZqYrwBQAAABMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T01:51:18.386Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "EventController.cs",
-              "DocumentMoniker": "D:\\VMS\\VMS-API\\Controllers\\EventController.cs",
-              "RelativeDocumentMoniker": "VMS-API\\Controllers\\EventController.cs",
-              "ToolTip": "D:\\VMS\\VMS-API\\Controllers\\EventController.cs",
-              "RelativeToolTip": "VMS-API\\Controllers\\EventController.cs",
-              "ViewState": "AQIAAA0AAADAOTMzMzMawCIAAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T14:00:50.835Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "VolunteerController.cs",
-              "DocumentMoniker": "D:\\VMS\\VMS-API\\Controllers\\VolunteerController.cs",
-              "RelativeDocumentMoniker": "VMS-API\\Controllers\\VolunteerController.cs",
-              "ToolTip": "D:\\VMS\\VMS-API\\Controllers\\VolunteerController.cs",
-              "RelativeToolTip": "VMS-API\\Controllers\\VolunteerController.cs",
-              "ViewState": "AQIAAAMAAAAAmZmZmZkewGIAAAA+AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T12:23:57.157Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DataAccessFactory.cs",
-              "DocumentMoniker": "D:\\VMS\\DataAccessLayer\\DataAccessFactory.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\DataAccessFactory.cs",
-              "ToolTip": "D:\\VMS\\DataAccessLayer\\DataAccessFactory.cs",
-              "RelativeToolTip": "DataAccessLayer\\DataAccessFactory.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAMwBwAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T10:26:54.572Z",
+              "WhenOpened": "2024-09-30T01:00:27.421Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "VolunteerEventsDTO.cs",
+              "DocumentMoniker": "D:\\VMS\\BusinessLogicLayer\\DTOs\\VolunteerEventsDTO.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\DTOs\\VolunteerEventsDTO.cs",
+              "ToolTip": "D:\\VMS\\BusinessLogicLayer\\DTOs\\VolunteerEventsDTO.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\DTOs\\VolunteerEventsDTO.cs",
+              "ViewState": "AQIAAAoAAADABgAAAAAXwBIAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T00:49:30.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "VolunteerEventMapper.cs",
+              "DocumentMoniker": "D:\\VMS\\BusinessLogicLayer\\Mapper\\VolunteerEventMapper.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\Mapper\\VolunteerEventMapper.cs",
+              "ToolTip": "D:\\VMS\\BusinessLogicLayer\\Mapper\\VolunteerEventMapper.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\Mapper\\VolunteerEventMapper.cs",
+              "ViewState": "AQIAAA8AAADgAAAAAIAwwCcAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T00:50:42.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "AuditLogsMapper.cs",
               "DocumentMoniker": "D:\\VMS\\BusinessLogicLayer\\Mapper\\AuditLogsMapper.cs",
               "RelativeDocumentMoniker": "BusinessLogicLayer\\Mapper\\AuditLogsMapper.cs",
@@ -332,59 +254,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
+              "Title": "EventController.cs",
+              "DocumentMoniker": "D:\\VMS\\VMS-API\\Controllers\\EventController.cs",
+              "RelativeDocumentMoniker": "VMS-API\\Controllers\\EventController.cs",
+              "ToolTip": "D:\\VMS\\VMS-API\\Controllers\\EventController.cs",
+              "RelativeToolTip": "VMS-API\\Controllers\\EventController.cs",
+              "ViewState": "AQIAABQAAAAA3MzMzMwDwCIAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T14:00:50.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "EventVolunteerController.cs",
               "DocumentMoniker": "D:\\VMS\\VMS-API\\Controllers\\EventVolunteerController.cs",
               "RelativeDocumentMoniker": "VMS-API\\Controllers\\EventVolunteerController.cs",
               "ToolTip": "D:\\VMS\\VMS-API\\Controllers\\EventVolunteerController.cs",
               "RelativeToolTip": "VMS-API\\Controllers\\EventVolunteerController.cs",
-              "ViewState": "AQIAAAwAAABg0MzMzIwmwBYAAABqAAAA",
+              "ViewState": "AQIAABUAAACgzszMzAwiwCQAAABDAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-29T17:39:57.353Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "VolunteerMapper.cs",
-              "DocumentMoniker": "D:\\VMS\\BusinessLogicLayer\\Mapper\\VolunteerMapper.cs",
-              "RelativeDocumentMoniker": "BusinessLogicLayer\\Mapper\\VolunteerMapper.cs",
-              "ToolTip": "D:\\VMS\\BusinessLogicLayer\\Mapper\\VolunteerMapper.cs",
-              "RelativeToolTip": "BusinessLogicLayer\\Mapper\\VolunteerMapper.cs",
-              "ViewState": "AQIAAAgAAACA/P////8TwBMAAAAgAAAA",
+              "DocumentIndex": 1,
+              "Title": "DataAccessFactory.cs",
+              "DocumentMoniker": "D:\\VMS\\DataAccessLayer\\DataAccessFactory.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\DataAccessFactory.cs",
+              "ToolTip": "D:\\VMS\\DataAccessLayer\\DataAccessFactory.cs",
+              "RelativeToolTip": "DataAccessLayer\\DataAccessFactory.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAMwBcAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T11:05:17.456Z",
+              "WhenOpened": "2024-09-29T10:26:54.572Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "IRepo.cs",
-              "DocumentMoniker": "D:\\VMS\\DataAccessLayer\\Interfaces\\IRepo.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\Interfaces\\IRepo.cs",
-              "ToolTip": "D:\\VMS\\DataAccessLayer\\Interfaces\\IRepo.cs",
-              "RelativeToolTip": "DataAccessLayer\\Interfaces\\IRepo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAASAAAA",
+              "DocumentIndex": 0,
+              "Title": "VolunteerEventsRepo.cs",
+              "DocumentMoniker": "D:\\VMS\\DataAccessLayer\\Repos\\VolunteerEventsRepo.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Repos\\VolunteerEventsRepo.cs",
+              "ToolTip": "D:\\VMS\\DataAccessLayer\\Repos\\VolunteerEventsRepo.cs",
+              "RelativeToolTip": "DataAccessLayer\\Repos\\VolunteerEventsRepo.cs",
+              "ViewState": "AQIAACkAAAAAzMzMzIwiwDMAAABZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T04:45:21.727Z",
+              "WhenOpened": "2024-09-30T00:53:34.901Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "VolunteerEvents.cs",
-              "DocumentMoniker": "D:\\VMS\\DataAccessLayer\\Models\\VolunteerEvents.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\Models\\VolunteerEvents.cs",
-              "ToolTip": "D:\\VMS\\DataAccessLayer\\Models\\VolunteerEvents.cs",
-              "RelativeToolTip": "DataAccessLayer\\Models\\VolunteerEvents.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAAABkAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T00:48:40.606Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 8,
               "Title": "VoluenteerDTO.cs",
               "DocumentMoniker": "D:\\VMS\\BusinessLogicLayer\\DTOs\\VoluenteerDTO.cs",
               "RelativeDocumentMoniker": "BusinessLogicLayer\\DTOs\\VoluenteerDTO.cs",
@@ -398,19 +320,154 @@
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "VolunteerEventsDTO.cs",
-              "DocumentMoniker": "D:\\VMS\\BusinessLogicLayer\\DTOs\\VolunteerEventsDTO.cs",
-              "RelativeDocumentMoniker": "BusinessLogicLayer\\DTOs\\VolunteerEventsDTO.cs",
-              "ToolTip": "D:\\VMS\\BusinessLogicLayer\\DTOs\\VolunteerEventsDTO.cs",
-              "RelativeToolTip": "BusinessLogicLayer\\DTOs\\VolunteerEventsDTO.cs",
-              "ViewState": "AQIAAA8AAAAAq5mZmZn9vxIAAAAdAAAA",
+              "Title": "AuditLogsController.cs",
+              "DocumentMoniker": "D:\\VMS\\VMS-API\\Controllers\\AuditLogsController.cs",
+              "RelativeDocumentMoniker": "VMS-API\\Controllers\\AuditLogsController.cs",
+              "ToolTip": "D:\\VMS\\VMS-API\\Controllers\\AuditLogsController.cs",
+              "RelativeToolTip": "VMS-API\\Controllers\\AuditLogsController.cs",
+              "ViewState": "AQIAAAcAAADgZmZmZuYswBAAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T00:49:30.186Z",
+              "WhenOpened": "2024-09-30T02:04:53.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "VolunteersRepo.cs",
+              "DocumentMoniker": "D:\\VMS\\DataAccessLayer\\Repos\\VolunteersRepo.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Repos\\VolunteersRepo.cs",
+              "ToolTip": "D:\\VMS\\DataAccessLayer\\Repos\\VolunteersRepo.cs",
+              "RelativeToolTip": "DataAccessLayer\\Repos\\VolunteersRepo.cs",
+              "ViewState": "AQIAAA8AAAAgx8zMzMwVwAoAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T04:42:42.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "VolunteerService.cs",
+              "DocumentMoniker": "D:\\VMS\\BusinessLogicLayer\\Services\\VolunteerService.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\Services\\VolunteerService.cs",
+              "ToolTip": "D:\\VMS\\BusinessLogicLayer\\Services\\VolunteerService.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\Services\\VolunteerService.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAIA8wDEAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T11:26:14.095Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
+              "Title": "VolunteerController.cs",
+              "DocumentMoniker": "D:\\VMS\\VMS-API\\Controllers\\VolunteerController.cs",
+              "RelativeDocumentMoniker": "VMS-API\\Controllers\\VolunteerController.cs",
+              "ToolTip": "D:\\VMS\\VMS-API\\Controllers\\VolunteerController.cs",
+              "RelativeToolTip": "VMS-API\\Controllers\\VolunteerController.cs",
+              "ViewState": "AQIAAEsAAAAA9P////8HwFMAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T12:23:57.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AuditLogs.cs",
+              "DocumentMoniker": "D:\\VMS\\DataAccessLayer\\Models\\AuditLogs.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Models\\AuditLogs.cs",
+              "ToolTip": "D:\\VMS\\DataAccessLayer\\Models\\AuditLogs.cs",
+              "RelativeToolTip": "DataAccessLayer\\Models\\AuditLogs.cs",
+              "ViewState": "AQIAAAkAAADAZ2ZmZqYrwBQAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T01:51:18.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "202409300154444_AuditLogs.cs",
+              "DocumentMoniker": "D:\\VMS\\DataAccessLayer\\Migrations\\202409300154444_AuditLogs.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Migrations\\202409300154444_AuditLogs.cs",
+              "ToolTip": "D:\\VMS\\DataAccessLayer\\Migrations\\202409300154444_AuditLogs.cs",
+              "RelativeToolTip": "DataAccessLayer\\Migrations\\202409300154444_AuditLogs.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T01:54:53.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AuditLogsRepo.cs",
+              "DocumentMoniker": "D:\\VMS\\DataAccessLayer\\Repos\\AuditLogsRepo.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Repos\\AuditLogsRepo.cs",
+              "ToolTip": "D:\\VMS\\DataAccessLayer\\Repos\\AuditLogsRepo.cs",
+              "RelativeToolTip": "DataAccessLayer\\Repos\\AuditLogsRepo.cs",
+              "ViewState": "AQIAABsAAADAZ2ZmZmYSwCMAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T01:55:47.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AuditLogsDTO.cs",
+              "DocumentMoniker": "D:\\VMS\\BusinessLogicLayer\\DTOs\\AuditLogsDTO.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\DTOs\\AuditLogsDTO.cs",
+              "ToolTip": "D:\\VMS\\BusinessLogicLayer\\DTOs\\AuditLogsDTO.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\DTOs\\AuditLogsDTO.cs",
+              "ViewState": "AQIAAAkAAADAAAAAAAARwBMAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T01:57:10.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AuditLogsService.cs",
+              "DocumentMoniker": "D:\\VMS\\BusinessLogicLayer\\Services\\AuditLogsService.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\Services\\AuditLogsService.cs",
+              "ToolTip": "D:\\VMS\\BusinessLogicLayer\\Services\\AuditLogsService.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\Services\\AuditLogsService.cs",
+              "ViewState": "AQIAAA8AAAAQAAAAAKA7wBwAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T01:59:55.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "VolunteerMapper.cs",
+              "DocumentMoniker": "D:\\VMS\\BusinessLogicLayer\\Mapper\\VolunteerMapper.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\Mapper\\VolunteerMapper.cs",
+              "ToolTip": "D:\\VMS\\BusinessLogicLayer\\Mapper\\VolunteerMapper.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\Mapper\\VolunteerMapper.cs",
+              "ViewState": "AQIAAAgAAACA/P////8TwBMAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T11:05:17.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IRepo.cs",
+              "DocumentMoniker": "D:\\VMS\\DataAccessLayer\\Interfaces\\IRepo.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Interfaces\\IRepo.cs",
+              "ToolTip": "D:\\VMS\\DataAccessLayer\\Interfaces\\IRepo.cs",
+              "RelativeToolTip": "DataAccessLayer\\Interfaces\\IRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T04:45:21.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "VolunteerEvents.cs",
+              "DocumentMoniker": "D:\\VMS\\DataAccessLayer\\Models\\VolunteerEvents.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Models\\VolunteerEvents.cs",
+              "ToolTip": "D:\\VMS\\DataAccessLayer\\Models\\VolunteerEvents.cs",
+              "RelativeToolTip": "DataAccessLayer\\Models\\VolunteerEvents.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAABkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T00:48:40.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "VMSContext.cs",
               "DocumentMoniker": "D:\\VMS\\DataAccessLayer\\Context\\VMSContext.cs",
               "RelativeDocumentMoniker": "DataAccessLayer\\Context\\VMSContext.cs",
@@ -418,12 +475,11 @@
               "RelativeToolTip": "DataAccessLayer\\Context\\VMSContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-28T05:36:33.295Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-28T05:36:33.295Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 19,
               "Title": "202409300146456_VolunteerModelUpdated.cs",
               "DocumentMoniker": "D:\\VMS\\DataAccessLayer\\Migrations\\202409300146456_VolunteerModelUpdated.cs",
               "RelativeDocumentMoniker": "DataAccessLayer\\Migrations\\202409300146456_VolunteerModelUpdated.cs",
@@ -431,12 +487,11 @@
               "RelativeToolTip": "DataAccessLayer\\Migrations\\202409300146456_VolunteerModelUpdated.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T01:46:54.762Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-30T01:46:54.762Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 21,
               "Title": "Volunteers.cs",
               "DocumentMoniker": "D:\\VMS\\DataAccessLayer\\Models\\Volunteers.cs",
               "RelativeDocumentMoniker": "DataAccessLayer\\Models\\Volunteers.cs",
@@ -444,12 +499,11 @@
               "RelativeToolTip": "DataAccessLayer\\Models\\Volunteers.cs",
               "ViewState": "AQIAAA8AAADANTMzM/MlwBkAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T16:48:21.729Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-29T16:48:21.729Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 20,
               "Title": "Configuration.cs",
               "DocumentMoniker": "D:\\VMS\\DataAccessLayer\\Migrations\\Configuration.cs",
               "RelativeDocumentMoniker": "DataAccessLayer\\Migrations\\Configuration.cs",
@@ -457,12 +511,11 @@
               "RelativeToolTip": "DataAccessLayer\\Migrations\\Configuration.cs",
               "ViewState": "AQIAABcAAAAAAAAAAAAvwCQAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T04:50:20.581Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-29T04:50:20.581Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
               "Title": "EventService.cs",
               "DocumentMoniker": "D:\\VMS\\BusinessLogicLayer\\Services\\EventService.cs",
               "RelativeDocumentMoniker": "BusinessLogicLayer\\Services\\EventService.cs",
@@ -470,12 +523,11 @@
               "RelativeToolTip": "BusinessLogicLayer\\Services\\EventService.cs",
               "ViewState": "AQIAABYAAABQAQAAAOA2wCEAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T13:52:23.484Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-29T13:52:23.484Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 26,
               "Title": "EventRepo.cs",
               "DocumentMoniker": "D:\\VMS\\DataAccessLayer\\Repos\\EventRepo.cs",
               "RelativeDocumentMoniker": "DataAccessLayer\\Repos\\EventRepo.cs",
@@ -483,60 +535,7 @@
               "RelativeToolTip": "DataAccessLayer\\Repos\\EventRepo.cs",
               "ViewState": "AQIAAAAAAAAAZGZmZmb0vwoAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T13:50:19.279Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "VolunteerEventService.cs",
-              "DocumentMoniker": "D:\\VMS\\BusinessLogicLayer\\Services\\VolunteerEventService.cs",
-              "RelativeDocumentMoniker": "BusinessLogicLayer\\Services\\VolunteerEventService.cs",
-              "ToolTip": "D:\\VMS\\BusinessLogicLayer\\Services\\VolunteerEventService.cs",
-              "RelativeToolTip": "BusinessLogicLayer\\Services\\VolunteerEventService.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAewBcAAAA5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T01:00:27.421Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "VolunteerEventsRepo.cs",
-              "DocumentMoniker": "D:\\VMS\\DataAccessLayer\\Repos\\VolunteerEventsRepo.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\Repos\\VolunteerEventsRepo.cs",
-              "ToolTip": "D:\\VMS\\DataAccessLayer\\Repos\\VolunteerEventsRepo.cs",
-              "RelativeToolTip": "DataAccessLayer\\Repos\\VolunteerEventsRepo.cs",
-              "ViewState": "AQIAAAEAAACAAQAAAEAuwBMAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T00:53:34.901Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "VolunteersRepo.cs",
-              "DocumentMoniker": "D:\\VMS\\DataAccessLayer\\Repos\\VolunteersRepo.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\Repos\\VolunteersRepo.cs",
-              "ToolTip": "D:\\VMS\\DataAccessLayer\\Repos\\VolunteersRepo.cs",
-              "RelativeToolTip": "DataAccessLayer\\Repos\\VolunteersRepo.cs",
-              "ViewState": "AQIAAAUAAACgzczMzEwowA0AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T04:42:42.859Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "VolunteerEventMapper.cs",
-              "DocumentMoniker": "D:\\VMS\\BusinessLogicLayer\\Mapper\\VolunteerEventMapper.cs",
-              "RelativeDocumentMoniker": "BusinessLogicLayer\\Mapper\\VolunteerEventMapper.cs",
-              "ToolTip": "D:\\VMS\\BusinessLogicLayer\\Mapper\\VolunteerEventMapper.cs",
-              "RelativeToolTip": "BusinessLogicLayer\\Mapper\\VolunteerEventMapper.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T00:50:42.2Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-29T13:50:19.279Z"
             },
             {
               "$type": "Document",
@@ -552,7 +551,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "EventMapper.cs",
               "DocumentMoniker": "D:\\VMS\\BusinessLogicLayer\\Mapper\\EventMapper.cs",
               "RelativeDocumentMoniker": "BusinessLogicLayer\\Mapper\\EventMapper.cs",
@@ -560,21 +559,7 @@
               "RelativeToolTip": "BusinessLogicLayer\\Mapper\\EventMapper.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAADEAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T13:54:37.162Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "VolunteerService.cs",
-              "DocumentMoniker": "D:\\VMS\\BusinessLogicLayer\\Services\\VolunteerService.cs",
-              "RelativeDocumentMoniker": "BusinessLogicLayer\\Services\\VolunteerService.cs",
-              "ToolTip": "D:\\VMS\\BusinessLogicLayer\\Services\\VolunteerService.cs",
-              "RelativeToolTip": "BusinessLogicLayer\\Services\\VolunteerService.cs",
-              "ViewState": "AQIAAAcAAABgnJmZmRktwAsAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T11:26:14.095Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-29T13:54:37.162Z"
             },
             {
               "$type": "Document",

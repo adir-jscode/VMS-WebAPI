@@ -19,7 +19,6 @@ namespace VMS_API.Controllers
             try
             {
                 VolunteerEventService.AssignVolunteerToEvent(volunteerId, eventId);
-                //audit log
                 AuditLogsService.LogAction("VolunteerEvent", eventId, "Volunteer assigned to event", "User");
                 return Request.CreateResponse(HttpStatusCode.OK, new { Message = "Volunteer assigned to event" });
             }
@@ -27,6 +26,21 @@ namespace VMS_API.Controllers
             {
                 return Request.CreateResponse(HttpStatusCode.InternalServerError, new { Message = ex.Message });
             }
-        }   
         }
+
+        [HttpGet]
+        [Route("api/eventvolunteer")]
+        public HttpResponseMessage VolunteersEvent()
+        {
+            try
+            {
+                var data = VolunteerEventService.GetVolunteersEvent();
+                return Request.CreateResponse(HttpStatusCode.OK, data);
+            }
+            catch (Exception ex)
+            {
+                return Request.CreateResponse(HttpStatusCode.InternalServerError, new { Message = ex.Message });
+            }
+        }
+    }
     }
