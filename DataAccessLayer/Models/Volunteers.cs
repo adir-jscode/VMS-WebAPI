@@ -16,10 +16,6 @@ namespace DataAccessLayer.Models
         [Required]
         public string Email { get; set; }
 
-        [Required(ErrorMessage = "Please enter password")]
-        [MinLength(6, ErrorMessage = "Password must be at least 6 characters long")]
-        public string Password { get; set; }
-
         [Required]
         public string Phone { get; set; }
         [Required]

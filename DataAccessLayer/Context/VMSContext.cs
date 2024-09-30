@@ -12,5 +12,6 @@ namespace DataAccessLayer.Models
         public DbSet<Volunteers> Volunteers { get; set; }
         public DbSet<Events> Events { get; set; }
         public DbSet<VolunteerEvents> VolenteerEvents { get; set; }
+        public DbSet<AuditLogs> AuditLogs { get; set; }
     }
 }

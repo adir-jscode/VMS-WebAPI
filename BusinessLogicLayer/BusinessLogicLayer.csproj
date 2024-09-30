@@ -46,13 +46,19 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DTOs\AddVolunteerDTO.cs" />
+    <Compile Include="DTOs\AuditLogsDTO.cs" />
     <Compile Include="DTOs\EventDTO.cs" />
     <Compile Include="DTOs\VoluenteerDTO.cs" />
+    <Compile Include="DTOs\VolunteerEventsDTO.cs" />
+    <Compile Include="Mapper\AuditLogsMapper.cs" />
     <Compile Include="Mapper\EventMapper.cs" />
     <Compile Include="Mapper\IMapper.cs" />
+    <Compile Include="Mapper\VolunteerEventMapper.cs" />
     <Compile Include="Mapper\VolunteerMapper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\AuditLogsService.cs" />
     <Compile Include="Services\EventService.cs" />
+    <Compile Include="Services\VolunteerEventService.cs" />
     <Compile Include="Services\VolunteerService.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -33,9 +33,8 @@
                         Name = "Volunteer" + i,
                         Email = "volunteer" + i + "@gmail.com",
                         Phone = "1234567890",
-                        Password = "password",
                         Address = "123 VolunteerSt City 121" + i,
-                        //Skills = new List<string> { "Skill1", "Skill2" },
+                        
                         Availability = "Weekends",
                         CreatedAt = DateTime.Now
                     }

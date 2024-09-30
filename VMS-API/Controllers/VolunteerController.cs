@@ -49,6 +49,7 @@ namespace VMS_API.Controllers
             try
             {
                 var data = VolunteerService.Create(volunteer);
+                AuditLogsService.LogAction("Volunteer", data.Id, "Volunteer created", "User");
                 return Request.CreateResponse(HttpStatusCode.OK, data);
             }
             catch (Exception ex)
@@ -81,6 +82,22 @@ namespace VMS_API.Controllers
             try
             {
                 var data = VolunteerService.Filter(keyword);
+                return Request.CreateResponse(HttpStatusCode.OK, data);
+            }
+            catch (Exception ex)
+            {
+                return Request.CreateResponse(HttpStatusCode.InternalServerError, new { Message = ex.Message });
+            }
+        }
+
+        [HttpPut]
+        [Route("api/volunteer")]
+        public HttpResponseMessage Update(VoluenteerDTO volunteer)
+        {
+            try
+            {
+                var data = VolunteerService.Update(volunteer);
+                AuditLogsService.LogAction("Volunteer", data.Id, "Volunteer updated", "User");
                 return Request.CreateResponse(HttpStatusCode.OK, data);
             }
             catch (Exception ex)

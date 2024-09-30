@@ -1,19 +1,18 @@
-﻿using System;
+﻿using DataAccessLayer.Models;
+using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataAccessLayer.Models
+namespace BusinessLogicLayer.DTOs
 {
-    public class VolunteerEvents
-    {
-        [Key]
+    public class VolunteerEventsDTO
+    {        
         public int Id { get; set; }
 
-        
         [ForeignKey("Volunteer")]
         public int VolunteerId { get; set; }
         public Volunteers Volunteer { get; set; }
